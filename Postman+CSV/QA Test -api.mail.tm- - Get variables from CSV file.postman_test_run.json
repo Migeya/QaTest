@@ -1,0 +1,118 @@
+{
+	"id": "7dcb7ea3-0ca3-4ea3-9682-27f6ace4c0f7",
+	"name": "QA Test /api.mail.tm/ | Get variables from CSV file",
+	"timestamp": "2021-11-06T16:23:49.808Z",
+	"collection_id": "18189018-161239ca-6652-4088-8e10-58918b6e97f1",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d07b62ab-5807-4cc2-ac69-b4e9088397e5",
+			"name": "1. Create account",
+			"time": 131,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				159,
+				300,
+				131
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b28e198d-d90d-4f50-b57c-c0fc81ff23a2",
+			"name": "2. Create token",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				128,
+				121,
+				123
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "f626d95a-58da-41d1-b554-d94917d343db",
+			"name": "3.List messages",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				71,
+				67,
+				64
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "c5a4146e-703a-47c6-bde4-4c403b57c0e6",
+			"name": "4. Delete account",
+			"time": 68,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83,
+				62,
+				68
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 1377,
+	"collection": {
+		"requests": [
+			{
+				"id": "d07b62ab-5807-4cc2-ac69-b4e9088397e5",
+				"method": "POST"
+			},
+			{
+				"id": "b28e198d-d90d-4f50-b57c-c0fc81ff23a2",
+				"method": "POST"
+			},
+			{
+				"id": "f626d95a-58da-41d1-b554-d94917d343db",
+				"method": "GET"
+			},
+			{
+				"id": "c5a4146e-703a-47c6-bde4-4c403b57c0e6",
+				"method": "DELETE"
+			}
+		]
+	}
+}
